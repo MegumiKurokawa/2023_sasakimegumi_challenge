@@ -1,0 +1,64 @@
+.confirm-content {
+    width: 1230px;
+    padding: 30px 15px;
+    margin: 0 auto;
+}
+
+.confirm-content__inner {
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.confirm-table__title {
+    display: flex;
+    text-align: left;
+    font-weight: bold;
+    width: 40%;
+    margin-right: 30px;
+}
+
+.confirm-table__item input {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.confirm-button {
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+}
+
+.confirm-submit__button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.confirm-modify__button {
+    display: inline-block;
+    text-decoration: underline;
+}

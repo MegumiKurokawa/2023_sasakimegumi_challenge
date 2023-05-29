@@ -1,0 +1,19 @@
+.thanks-content {
+    position: relative;
+}
+
+.thanks-content_inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.thanks-back__button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}

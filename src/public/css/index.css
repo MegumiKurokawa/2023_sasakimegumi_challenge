@@ -1,0 +1,91 @@
+.form-content {
+    width: 1230px;
+    padding: 30px 15px;
+    margin: 0 auto;
+}
+
+.form-content__title {
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-group__title {
+    text-align: left;
+    margin-right: 50px;
+}
+
+.form__label {
+    font-weight: bold;
+}
+
+.form__required {
+    color: red;
+    font-weight: bold;
+}
+
+.form-group__content {
+    text-align: left;
+    width: 70%;
+}
+
+
+.form-group__radio input {
+    transform: scale(2);
+    margin-right: 10px;
+}
+
+.form-group__input input,
+.form-group__input textarea {
+    padding: 10px;
+    width: 600px;
+    border: solid 1px lightgrey;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.fom-group__input .form-group__input input {
+    height: 40px;
+}
+
+.form-group__input textarea {
+    height: 180px;
+}
+
+.name__placeholder {
+    color: lightgray;
+    text-align: left;
+    font-weight: bold;
+}
+
+.form__error {
+    color: red;
+    height: 40px;
+    text-align: left;
+}
+
+.form__submit-button {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100px;
+    
+}
